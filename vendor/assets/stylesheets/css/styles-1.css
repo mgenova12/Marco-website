@@ -486,7 +486,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     top: 0;
     left: 0;
     background-color: white;
-    background: url('../images/bg-portfolio.jpg') no-repeat center center;
+    background: url('/assets/bg-portfolio.jpg') no-repeat center center;
     background-size: cover;
     will-change: transform; 
     z-index: -9999999;

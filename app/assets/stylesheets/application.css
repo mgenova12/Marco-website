@@ -13,7 +13,13 @@
  *= require css/bootstrap.min.css
  *= require css/flexslider.css
  *= require css/font-awesome.min.css
- *= require css/styles-9.css
+ *= require css/styles-6.css  
  *= require_tree .
  *= require_self
  */
+
+
+/*.backstretch img {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) !important;
+  z-index: -1;
+}*/

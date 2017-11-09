@@ -13,10 +13,10 @@
     <!-- ==============================================
     Favicons
     =============================================== -->
-    <link rel="shortcut icon" href="assets/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-touch-icon-114x114.png">
 
     <!-- ==============================================
     CSS
@@ -34,7 +34,7 @@
       <script src="assets/js/libs/respond.min.js"></script>
     <![endif]-->
     
-    <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+    <script type="text/javascript" src="/assets/js/libs/modernizr.min.js"></script>
     
   </head>
   
@@ -67,7 +67,7 @@
               <a href="#home" class="scrollto">Home</a>
             </li>
             <li>
-              <a href="#services" class="scrollto">What I Do</a>
+              <a href="#services" class="scrollto">My Experience</a>
             </li>
             <li>
               <a href="#about" class="scrollto">About Me</a>
@@ -107,15 +107,15 @@
     
       <div class="container">
         
-        <h1 class="section-title big-text scrollimation fade-up">My Services</h1>
+        <h1 class="section-title big-text scrollimation fade-up">My Experiences</h1>
         
         <div class="row">
         
           <div class="col-sm-4 service-item color3 scrollimation scale-in">
           
-            <div class="service-icon"><i class="fa fa-lightbulb-o"></i></div>
+            <div><i class="fa"> <img src='/assets/TDE.png'></i></div>
             
-            <h3>Brand Identity</h3>
+            <h3>The Difference Engine</h3>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
             
@@ -124,9 +124,9 @@
         
           <div class="col-sm-4 service-item color1 scrollimation scale-in d1">
           
-            <div class="service-icon"><i class="fa fa-desktop "></i></div>
+            <div><i class="fa"> <img src='/assets/Actualize.png'></i></div>
             
-            <h3>Web Design</h3>
+            <h3>Actualize Coding Bootcamp</h3>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
             
@@ -135,9 +135,9 @@
           
           <div class="col-sm-4 service-item color2 scrollimation scale-in d2">
           
-            <div class="service-icon"><i class="fa fa-rocket"></i></div>
+            <div><i class="fa"> <img src='/assets/stjohns.png'></i></div>
             
-            <h3>Rocket Science</h3>
+            <h3>St. John's Univeristy</h3>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
             
@@ -489,24 +489,6 @@
     </section>
       
     <!-- ==============================================
-    TWITTER
-    =============================================== -->
-    <section id="twitter" class="add-padding bg-color1">
-    
-      <div class="container">
-        <div class="row scrollimation fade-in">
-          <div class="col-sm-1 twitter-icon">
-            <i class="fa fa-twitter"></i>
-          </div>
-          <div class="col-sm-11">
-            <div id="twitter-slider" class="flexslider" data-widget-id="386017398488186880" data-tweets-length="3"></div>
-          </div>
-        </div>
-      </div>
-    
-    </section>
-      
-    <!-- ==============================================
     CONTACT
     =============================================== -->
     <section id="contact" class="add-padding">
@@ -600,7 +582,7 @@
     SCRIPTS
     =============================================== --> 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src=/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+    <script>window.jQuery || document.write('<script src=/assets/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
     
     <%= javascript_include_tag 'application' %>
     
