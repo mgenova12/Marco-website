@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .bg-color2{
     color:#fff;
-    background:#DBBA8D;
+    background:#334959;
 }
 
 .bg-color3{
@@ -298,7 +298,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     top: 50%;
     width: 100% !important;
     margin-top:-120px;
-    z-index: -1;
+    z-index: 1;
 }
 
 #home p{

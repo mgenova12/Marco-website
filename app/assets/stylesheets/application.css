@@ -19,6 +19,10 @@
  */
 
 
-/*.backstretch {
+#home {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) !important;
-}*/
+}
+
+.mglogo {
+  border-radius: 10%;
+}
