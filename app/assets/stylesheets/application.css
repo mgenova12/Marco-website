@@ -12,7 +12,6 @@
  *
  *= require css/bootstrap.min.css
  *= require css/flexslider.css
- *= require css/font-awesome.min.css
  *= require css/styles-6.css  
  *= require_tree .
  *= require_self

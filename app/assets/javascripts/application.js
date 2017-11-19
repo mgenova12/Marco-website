@@ -23,4 +23,5 @@
 //= require js/scripts
 //= require js/twitterFetcher_min
 //= require js/waypoints.min
+//= require turbolinks
 //= require_tree .
